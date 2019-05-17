@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/second.css">
+    <title>Вторая страница сайта </title>
+</head>
+<body>
+
+    <a name="#nachalo"></a>
+
+    <H1 align= center > Новая страница оформлена разными заголовками </H1>
+    <H2 align= left> Заголовок 2 </H2>
+    <H4 align= right> Заголовок 4 </H4>
+    <H6 align= right> Заголовок 6 </H6>
+
+    <div class="list_container">
+        <p>Примеры списка маркированного:</p>
+        <ul type="square">
+            <li>element 1</li>
+            <li>element 2</li>
+        </ul>
+        <ul type="circle">
+            <li>element 3</li>
+            <li>element 4</li>
+        </ul>
+        <ul type="disc">
+            <li>element 5</li>
+            <li>element 6</li>
+        </ul>
+        <p>Примеры списка нумерованного:</p>
+        <ol type="1">
+            <li>element 1</li>
+            <li>element 2</li>
+        </ol>
+        <ol type="A">
+            <li>element 1</li>
+            <li>element 2</li>
+        </ol>
+        <ol type="i">
+            <li>element 1</li>
+            <li>element 2</li>
+        </ol>
+    </div>
+
+    <div class="table_container">
+        <table border="1" title="3x3">
+            <tr>
+                <th class="head_span" colspan="2">ячейка 1 и 2 первой строки объединены </th>
+                <th>ячейка 3 первой строки </th>
+            </tr>
+
+            <tr>
+                <td>ячейка 1 второй строки </td>
+                <td>ячейка 2 второй строки </td>
+                <td class="sell_span" rowspan="2">ячейки 3 второй и третьей строки объединены </td>
+            </tr>
+            <tr>
+                <td class="bord">ячейка 1 третьей строки  </td>
+                <td>ячейка 2 третьей строки  </td>
+            </tr>
+
+            <caption align="top">Заголовок таблицы </caption>
+
+        </table>
+    </div>
+
+    <br>
+    <br>
+    <p class="title">
+        <b>Архив фотографий </b>
+    </p>
+    <hr color=yellow  width="80%" size=2>
+
+    <div class="album_container">
+        <table class="album" border="2">
+            <tr>
+                <th colspan="3">Большая панда </th>
+            </tr>
+
+            <tr>
+                <td><img src="images/panda1.jpg"></td>
+                <td><img src="images/panda2.jpg"></td>
+                <td><img src="images/panda3.jpg"></td>
+            </tr>
+            <tr>
+                <td><img src="images/panda4.jpg"></td>
+                <td><img src="images/panda5.jpg"></td>
+                <td><img src="images/panda6.jpg"></td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+    <a href="index.html" target="_self" title="Переход_на_первую_страницу">Открыть первую страницу
+    </a>
+
+    <br>
+
+    <a href="#nachalo">В начало документа</a>
+
+
+
+</body>
+</html>

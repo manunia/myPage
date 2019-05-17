@@ -1,0 +1,48 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: #ff3e3f;
+    background-image: url("../images/fon.jpg");
+}
+.first_line {
+    width: 80%;
+}
+.second_line {
+    width: 60%;
+    color: yellow;
+    size: 4px;
+}
+.left_line {
+    width: 3px;
+}
+.create_site {
+    color: yellow;
+    font-size: 25pt;
+    font-family: Arial;
+}
+.sibol_block {
+    text-align: justify;
+    font-size: 30px;
+    color: white;
+}
+.smile {
+    font-family: wingdings;
+}
+.tv {
+    font-size: 40px;
+    color: yellow;
+}
+.dollar {
+    font-family: wingdings;
+    color: oldlace;
+    font-size: 70px;
+}
+.tuvalu {
+    color: lightgreen;
+    font-size: 40px;
+}

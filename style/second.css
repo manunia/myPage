@@ -1,0 +1,45 @@
+body {
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    color: #0c24ff;
+    background-image: url("../images/fon2.jpg");
+}
+.list_container {
+    font-size: 40px;
+    color: fuchsia;
+    width: 50%;
+    margin: 0 auto;
+}
+.table_container {
+    margin: 0 auto;
+}
+table {
+    border: 10px;
+    width: 100%;
+}
+.head_span {
+    background-color: orange;
+}
+.sell_span {
+    background-color: yellow;
+    border-color: blue;
+}
+.bord {
+    border-color: green;
+}
+table:nth-child(2) {
+    text-align: center;
+}
+.album {
+    border-color: darkviolet;
+    width: 60%;
+    margin: 0 auto;
+}
+.album th {
+    background-color: black;
+}
+.album img {
+    width: 220px;
+    height: 200px;
+}

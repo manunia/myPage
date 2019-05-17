@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+</head>
+<style>
+    body {
+        font-size: 20px;
+        background: url("images/fon5.jpg") no-repeat;
+        background-size: 100%;
+        align-items: center;
+        text-align: center;
+        color: #b9ffc6;
+        background-color: #18ff00;
+    }
+    form {
+        align-items: left;
+        text-align: left;
+        width: 30%;
+        margin: 0 auto;
+    }
+    .title {
+        color: red;
+        font-family: Arial;
+        font-size: 20px;
+    }
+    .titile2 {
+        color: blue;
+        font-family: Arial;
+        font-size: 20px;
+    }
+</style>
+<body>
+
+    <b>Оставить отзыв о сайте</b>
+
+    <form action="mailto:adress@mail.ru" method="post">
+        <label for="name">Введите ваше имя</label>
+        <input type="text" name="lmya" id="name" size="20" maxlength="30"><br>
+        <label for="age">Ваш возраст</label>
+        <select id="age" name="vozrast" size="1">
+            <option>меньше 14 лет</option>
+            <option>от 14 до 17</option>
+            <option>от 18 до 24</option>
+            <option>от 25 до 40</option>
+            <option>старше 40</option>
+        </select><br>
+        <label for="hero">Выберите героя</label>
+        <p> <select id="hero" size=4 multiple name=Hero>
+            <option disabled> Бэтмен </option>
+            <option value=Ya selected> Человек паук </option>
+            <option value=ty> Россомаха </option>
+            <option value=on> Железный человек </option>
+        </select>
+        </p><br>
+        <label for="email">Ваш e-mail</label>
+        <input id="email" size="20" type="email" name="address"><br>
+        <label for="text">Текст отзыва</label><br>
+        <textarea id="text" name="otzyv" wrap="virtual" cols="15" rows="3"></textarea><br>
+        <input type="checkbox" id="subscribe">
+        <label for="subscribe">Подписаться на рассылку</label><br>
+        <p>Ваши предыдущие поездки</p><br>
+        <input name=tyr1 value=Fra type="checkbox" checked="checked">Франция<br>
+        <input name=tyr2 value=Ger type="checkbox">Германия<br>
+        <input name=tyr3 value=Bolg type="checkbox">Болгария<br>
+        <input name=tyr4 value=Ind type="checkbox">Индия<br>
+        <input type="submit" value="Отправить">
+        <br><br><br>
+        <p class="title"><b>ГОРЯЩИЕ ТУРЫ</b></p>
+        <p class="titile2">
+            Турфирма "Радуга"
+            <b>Город вылета</b>
+        </p>
+        <select size=1>
+            <option>Екатеринбург
+            <option>Казань
+            <option>Москва
+            <option>Нижний Новгород
+            <option>Самара
+            <option>С-Петербург
+            <option>Уфа
+        </select><br>
+        <label for="country">Страна</label><br>
+        <select id="country" size=1>
+            <option>Греция
+            <option>Египет
+            <option>Турция
+        </select>
+        <p>Курорт</p>
+        <input name=kurort value=non type="radio" checked="checked">
+        <em>не имеет значения</em> <br>
+        <input name=kurort value=Marsa type="radio">Марса Алам <br>
+        <input name=kurort value=Xyrg type="radio">Хургада <br>
+        <input name=kurort value=Sarm type="radio">Шарм эль Шейх
+        <br><input type=submit value="Подобрать тур">
+
+    </form>
+    <br><hr>
+    <bdo>...«А роза упала на лапу Азора» ...</bdo>
+</body>
+</html>
